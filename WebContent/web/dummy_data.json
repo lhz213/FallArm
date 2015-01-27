@@ -1,0 +1,43 @@
+{ "employees":[
+	{
+	  "name":"Mike Sullivan",
+	   "age": 22,
+	   "class":"100001",
+	   "address":"22 ABC street, Santa Clara, CA",
+	   "condition":"good",
+	   "gender":"male",
+	   "email":"mike@gmail.com",
+	   "phone":"510-123-1234",
+	   "bd":"1969-10-21",
+	   "id":1
+	}
+	,
+	{
+	  "name":"Daisy",
+	   "age": 26,
+	   "class":"100002",
+	   "address":"21212 london street, San Jose, CA",
+	   "condition":"good",
+	   "gender":"female",
+	   "phone":"510-123-1234",
+	   "bd":"1988-12-22", 
+	      "id":2
+	}
+	,
+	{
+	  "name":"Mr Kumar",
+	   "age": 23,
+	   "class":"100003",
+	   "address":"101 westinghouse, Fremont, CA",
+	   "condition":"good",
+	   "gender":"male",
+	   "email":"kumar@yahoo.com",
+	   "phone":"510-123-1234",
+	    "bd":"1944-12-02",
+	      "id":3
+	}
+		
+
+	
+]
+}

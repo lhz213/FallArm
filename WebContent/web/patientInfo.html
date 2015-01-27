@@ -1,0 +1,210 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="./js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="./css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+   		 <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		
+		</script>
+		
+
+		
+		<h1 align="center">Your Information</h1>
+</head>
+
+<body>
+	<style type="text/css">
+    .FieldLabel
+    {
+        font-weight: bold;
+        padding: 4px;
+        width: 90px;
+    }
+    .RightAlignedInputs input
+    {
+        text-align: right;
+    }
+</style>
+<div >
+    <div id="Orders_editForm1">
+        <table style="width: 100%">
+            <tr>
+                <td valign="top">
+                    <table>
+                        <tr>
+                            <td class="FieldLabel">
+                                Name:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {Patient ID}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Employee:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {EmployeeID}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Order Date:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {OrderDate}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Required Date:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {RequiredDate}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Shipped Date:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {ShippedDate}</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top">
+                    <table style="float: right" class="RightAlignedInputs">
+                        <tr>
+                            <td class="FieldLabel">
+                                Address:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {ShipAddress}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                City:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {ShipCity}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Region:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {ShipRegion}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Postal Code:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {ShipPostalCode}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Ship Country:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {ShipCountry}</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    {dv101Extender}
+                </td>
+            </tr>
+            <tr>
+                <td valign="bottom">
+                    <table>
+                        <tr>
+                            <td class="FieldLabel">
+                                Ship Name:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {ShipName}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Ship Via:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly">
+                                    {ShipVia}</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="right">
+                    <table style="margin-right: 4px;" class="RightAlignedInputs">
+                        <tr>
+                            <td class="FieldLabel">
+                                Subtotal:
+                            </td>
+                            <td align="right">
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {Subtotal}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Freight:
+                            </td>
+                            <td align="right">
+                                <div class="FieldPlaceholder DataOnly " style="float: right">
+                                    {Freight}</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FieldLabel">
+                                Total:
+                            </td>
+                            <td>
+                                <div class="FieldPlaceholder DataOnly" style="float: right">
+                                    {Total}</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+
+</html>

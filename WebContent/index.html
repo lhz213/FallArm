@@ -1,0 +1,322 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"> </script>
+		<title>Fall Alarms | Personal alarm system for old people</title>
+		<link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<script src="web/js/jquery.min.js"></script>
+
+		<link href="web/css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+   		 <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" >
+		
+		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="web/js/move-top.js"></script>
+		<script type="text/javascript" src="web/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		 <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<!--
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+-->
+		
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	
+
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="web/images/logoNew.png" title="doctor" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li class="active"><a href="#home" class="scroll">Home </a></li>
+								<li><a href="#about" class="scroll">About us</a></li>
+								<li><a href="#services" class="scroll">our services</a></li>
+								<li><a href="#team" class="scroll">our team</a></li>
+
+	
+									<li><a href="./login.html" role="button" data-toggle="modal">Login</a></li>
+									
+									 
+							</ul>
+							<a href="#" id="pull"><img src="web/images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		
+		<!----- //End-header---->
+		
+<!---//End-container>
+		<!----start-slider-script---->
+			<script src="web/js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="web/images/slide1.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>Fall Alarms</h1>
+			          		<label>Rest easy knowing that if you or a loved one has a fall, assistance will be on the way with a fall detector</label>
+			          		<a class="slide-btn" href="#">learn more</a>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="web/images/slide2.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>Fall Alarms</h1>
+			          		<label>Rest easy knowing that if you or a loved one has a fall, assistance will be on the way with a fall detector</label>
+			          		<a class="slide-btn" href="#">learn more</a>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="web/images/slide3.jpg" alt="">
+			           <div class="caption">
+			           	<div class="slide-text-info">
+			          		<h1>Fall Alarms</h1>
+			          		<label>Rest easy knowing that if you or a loved one has a fall, assistance will be on the way with a fall detector</label>
+			          		<a class="slide-btn" href="#">learn more</a>
+			          	</div>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+			<!----- //End-slider---->
+			<!---- about ---->
+			<div id="about" class="about">
+				<div class="container">
+					<div class="header about-header text-center">
+						<h2>about us</h2>
+						<p>Fall Alarms offers several devices enabling you to find the right solution for you or your loved one</p>
+					</div>
+					<!---- About-grids ---->
+					<div class="about-grids">
+						<div class="col-md-4">
+							<div class="about-grid n-about-grid n-about-grid1">
+								<img src="web/images/img1New.jpg" title="name" />
+								<!-- <span class="t-icon1"> </span> -->
+								<div class="about-grid-info text-center">
+									<h3><a href="#">Website Fall Alarm</a></h3>
+									<br>
+									<p>You can directly help your loved one to send a Fall Alarm to system though a Desktop or a Laptop. Just simply login to website and click the Alarm button.                                
+										
+									</p>
+									
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="about-grid n-about-grid n-about-grid1">
+								<img src="web/images/img2New.jpg" title="name" />
+								<!-- <span class="t-icon1"> </span> -->
+								<div class="about-grid-info text-center">
+								
+								
+									<h3><a href="#">Mobile Phone Fall Alarm</a></h3>
+									<p>You can also give a Mobile Phone installed Fall Alarms app and keep login. Then teach your loved one to click the Alarm button himself/herself after fell. </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="about-grid n-about-grid n-about-grid2">
+								<img src="web/images/img3New.jpg" title="name" />
+								<!-- <span class="t-icon2"> </span> -->
+								<div class="about-grid-info text-center">
+									<h3><a href="#">Fall Detectors (Coming Soon...)</a></h3>
+									<p>A good fall alert system includes fall detectors which can be worn on a cord around your neck, clipped to your belt or worn with a waist pouch accessory.</p>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---- About-grids ---->
+				</div>
+				
+			</div>
+			<!---- about ---->
+			<!--- services --->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="header services-header text-center">
+						<h2>our services</h2>
+						<p>After receiving the fall alarms, our customer service representative will contact patient and patient's relative immediately. After confirmed the fall, we will send our nursery to patient house do following exam then determine if need send to hospital.</p>
+					</div>
+					<!---- service-grids--->
+					<div class="service-grids">
+						<div class="col-md-3">
+							<div class="service-grid text-center">
+								<a href="#"><span class="s1-icon"> </span></a>
+								<h3><a href="#">Heart problem</a></h3>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="service-grid text-center">
+								<a href="#"><span class="s2-icon"> </span></a>
+								<h3><a href="#">brain problem</a></h3>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="service-grid text-center">
+								<a href="#"><span class="s3-icon"> </span></a>
+								<h3><a href="#">knee problem</a></h3>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="service-grid text-center">
+								<a href="#"><span class="s4-icon"> </span></a>
+								<h3><a href="#">human bones problem</a></h3>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!----//service-grids--->
+				</div>
+				
+			</div>
+			<!--- services --->
+			<!--- team --->
+			<div id="team" class="team">
+				<div class="container">
+					<div class="header team-head text-center">
+						<h2>our team</h2>
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+					</div>
+					<!--- teammember-grids ---->
+					<div class="team-member-grids">
+						<div class="team-member-grid">
+							<img src="web/images/t1.jpg" title="name" />
+							<div class="team-member-info bottom-t-info">
+								
+								<h3><a href="#">Dr. Keith, M.D.</a></h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type Lorem Ipsum is simply dummy text.is simply dummy text..is simply dummy text.</p>
+							</div>
+						</div>
+						<div class="team-member-grid">
+							<div class="team-member-info bottom-t-info bottom-t-info-b">
+								
+								<h3><a href="#">Dr. Danielle, M.D.</a></h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type Lorem Ipsum is simply dummy text.is simply dummy text..is simply dummy text..is simply dummy .</p>
+								
+							</div>
+							<img src="web/images/t2.jpg" title="name" />
+						</div>
+						<div class="team-member-grid">
+							<img src="web/images/t3.jpg" title="name" />
+							<div class="team-member-info bottom-t-info">
+								
+								<h3><a href="#">Dr. Joseph, M.D.</a></h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type Lorem Ipsum is simply dummy text.is simply dummy text..is simply dummy text.</p>
+							</div>
+						</div>
+						<div class="team-member-grid">
+							<div class="team-member-info bottom-t-info bottom-t-info-b">
+								
+								<h3><a href="#">Dr. Caitlin, M.D.</a></h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type Lorem Ipsum is simply dummy text.is simply dummy text..is simply dummy text..is simply dummy text.</p>
+							</div>
+							<img src="web/images/t4.jpg" title="name" />
+						</div>
+						<div class="team-member-grid">
+							<img src="web/images/t5.jpg" title="name" />
+							<div class="team-member-info bottom-t-info">
+								
+								<h3><a href="#">Dr. Michael, M.D.</a></h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type Lorem Ipsum is simply dummy text.is simply dummy text..is simply dummy text.</p>
+							</div>
+						</div>
+						<div class="team-member-grid">
+							<div class="team-member-info bottom-t-info bottom-t-info-b">
+								
+								<h3><a href="#">Dr. Caitlin, M.D.</a></h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type Lorem Ipsum is simply dummy text.is simply dummy text..is simply dummy text..is simply dummy text.</p>
+							</div>
+							<img src="web/images/t4.jpg" title="name" />
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<!---//teammember-grids ---->
+				</div>
+			</div>
+	
+		
+	</body>
+</html>
+
